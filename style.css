@@ -1,8 +1,9 @@
 html {box-sizing: border box;}
 * , *: after, *: before {box-sizing: inherit;}     
 .octodex {
-	margin: 0 auto;
+	margin: 1px;
 	display:flex;
+
 }
 .octocat > a >img {
 border-radius: 3px;
@@ -10,6 +11,16 @@ height: 400px;
 width: 400px;
 border:1px solid #ccc;
 }
+li.octocat {
+	border-bottom: 1px solid #ccc;
+	margin: 15px;
+	
+}
+.image-footer {
+	display: flex
+	justify-content: space-between;
+}	
+
 span.image-number:before {
 	content:"#";
 
@@ -20,8 +31,35 @@ li {
 span.image-number {
 	font-family: Helvetica;
 	font-weight: bold;
-	color: #ccc
+	color: #ccc;
+	float: left;
+	clear: both;
+    
+
 }
 div .image-caption > span{
-	float: left;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #ccc;
+
+	
+}
+div .image-caption > a{
+	font-family: Helvetica;
+	font-weight: bold;
+	color: gray;
+	text-decoration: none;
+	margin: 0 2px 0 2px;
+}
+
+ul .authors > li > a > img {
+	height: 30px;
+	width: 30px;
+	
+
+}
+.image-caption, .authors li {
+	display: flex;
+
+
 }
