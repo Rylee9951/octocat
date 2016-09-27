@@ -47,7 +47,7 @@ div .image-caption > span{
 div .image-caption > a{
 	font-family: Helvetica;
 	font-weight: bold;
-	color: gray;
+	color: #808080;
 	text-decoration: none;
 	margin: 0 2px 0 2px;
 }
@@ -61,5 +61,10 @@ ul .authors > li > a > img {
 .image-caption, .authors li {
 	display: flex;
 
+
+}
+div.image-caption {
+	display: flex;
+	float: right;
 
 }
