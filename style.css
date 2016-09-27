@@ -47,7 +47,7 @@ div .image-caption > span{
 div .image-caption > a{
 	font-family: Helvetica;
 	font-weight: bold;
-	color: #808080;
+	color: #000;
 	text-decoration: none;
 	margin: 0 2px 0 2px;
 }
@@ -68,3 +68,4 @@ div.image-caption {
 	float: right;
 
 }
+  
