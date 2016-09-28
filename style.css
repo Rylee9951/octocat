@@ -10,6 +10,7 @@ border-radius: 3px;
 height: 400px;
 width: 400px;
 border:1px solid #ccc;
+border-bottom: ridge;
 }
 li.octocat {
 	border-bottom: 1px solid #ccc;
@@ -41,7 +42,7 @@ div .image-caption > span{
 	font-family: Helvetica;
 	font-weight: bold;
 	color: #ccc;
-
+    
 	
 }
 div .image-caption > a{
@@ -51,6 +52,7 @@ div .image-caption > a{
 	text-decoration: none;
 	margin: 0 2px 0 2px;
 }
+
 
 ul .authors > li > a > img {
 	height: 30px;
@@ -68,4 +70,4 @@ div.image-caption {
 	float: right;
 
 }
-  
+
