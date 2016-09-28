@@ -70,4 +70,73 @@ div.image-caption {
 	float: right;
 
 }
+.bottom {
+	margin: 1px;
+	display:flex;
 
+}
+.extra > a >img {
+border-radius: 3px;
+height: 400px;
+width: 400px;
+border:1px solid #ccc;
+margin-bottom: 10px;
+}
+li.extra {
+	border-bottom: 1px solid #ccc;
+	margin: 15px;
+	
+}
+.image-bottom {
+	display: flex
+	justify-content: space-between;
+}	
+
+span.number:before {
+	content:"#";
+
+}
+li {
+	list-style-type: none;
+}
+span.number {
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #ccc;
+	float: left;
+	clear: both;
+    
+
+}
+div .caption > span{
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #ccc;
+    
+	
+}
+div .caption > a{
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	margin: 0 2px 0 2px;
+}
+
+
+ .artists > li > a > img {
+	height: 30px;
+	width: 30px;
+	
+
+}
+.caption, .artists li {
+	display: flex;
+
+
+}
+div.caption {
+	display: flex;
+	float: right;
+
+}
